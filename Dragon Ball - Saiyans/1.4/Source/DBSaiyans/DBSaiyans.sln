@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBSaiyans", "DBSaiyans.csproj", "{EAF43440-0273-43B3-9411-B19806302744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF43440-0273-43B3-9411-B19806302744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF43440-0273-43B3-9411-B19806302744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF43440-0273-43B3-9411-B19806302744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF43440-0273-43B3-9411-B19806302744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA849C9-B8BB-4766-834F-5EDE8185E6E7}
+	EndGlobalSection
+EndGlobal

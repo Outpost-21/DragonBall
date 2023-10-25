@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef ParentName="DragonBall_GeneHairColorBase">
+		<defName>Outland_HairColor_Violet</defName>
+		<label>violet hair</label>
+		<hairColorOverride>(137, 105, 207)</hairColorOverride>
+		<selectionWeight>0.05</selectionWeight>
+		<displayOrderInCategory>7910</displayOrderInCategory>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+	</GeneDef>
+
+</Defs>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef ParentName="DragonBall_GeneGenericBase">
+		<defName>DragonBall_FrostGem</defName>
+		<label>frost gem</label>
+		<description>Carriers of this gene grow a gem on the chest, please don't make me explain.</description>
+		<iconPath>DragonBall/Genes/BodyAddons/Gene_FrostGem</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<graphicData>
+			<drawLoc>Tailbone</drawLoc>
+			<graphicPath>DragonBall/Genes/BodyAddons/FrostGem</graphicPath>
+			<colorType>Hair</colorType>
+			<drawOffsetSouth>(0, 0.01, 0)</drawOffsetSouth>
+			<drawScale>1.5</drawScale>
+		</graphicData>
+		<modExtensions Inherit="False">
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Male>(0, 0.01, 0)</Male>
+							<Female>(0, 0.01, 0.15)</Female>
+							<Thin>(0, 0.01, 0.05)</Thin>
+							<Hulk>(0, 0.01, 0)</Hulk>
+							<Fat>(0, 0.01, 0.12)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneTailBase">
+		<defName>DragonBall_FrostTail</defName>
+		<label>frost tail</label>
+		<description>Carriers of this gene grow a thick fleshy tail that can act as a dexterous fifth limb.</description>
+		<iconPath>DragonBall/Genes/Tails/Frost</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatMet>-1</biostatMet>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Tails/Frost</graphicPath>
+			<colorType>Custom</colorType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneTailBase">
+		<defName>DragonBall_FrostTail_Skin</defName>
+		<label>frost tail (skin)</label>
+		<description>Carriers of this gene grow a thick fleshy tail that can act as a dexterous fifth limb.\n\nNote: Matches skin colour.</description>
+		<iconPath>DragonBall/Genes/Tails/Frost</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatMet>-1</biostatMet>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Tails/Frost</graphicPath>
+			<colorType>Skin</colorType>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneEarsBase">
+		<defName>DragonBall_FrostEars</defName>
+		<label>ears (frost)</label>
+		<description>Carriers of this gene will grow alien looking flat vented ears.</description>
+		<iconPath>DragonBall/Genes/Ears/Frost</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Ears/Frost</graphicPath>
+			<layer>PostSkin</layer>
+			<colorType>Custom</colorType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneEarsBase">
+		<defName>DragonBall_FrostEars_Skin</defName>
+		<label>ears (frost, skin)</label>
+		<description>Carriers of this gene will grow alien looking flat vented ears.\n\nNote: Matches skin colour.</description>
+		<iconPath>DragonBall/Genes/Ears/Frost</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Ears/Frost</graphicPath>
+			<layer>PostSkin</layer>
+			<colorType>Skin</colorType>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneHeadBase">
+		<defName>DragonBall_FrostHead</defName>
+		<label>frost head</label>
+		<description>Carriers of this gene have a sleek alien appearance in their face and head.</description>
+		<iconPath>DragonBall/GeneIcons/Gene_FrostHead</iconPath>
+		<forcedHeadTypes>
+			<li>DragonBall_Male_Frost</li>
+			<li>DragonBall_Female_Frost</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/HeadAddons/FrostPlate</graphicPath>
+			<layer>PostSkin</layer>
+			<colorType>Hair</colorType>
+		</graphicData>
+		<exclusionTags>
+			<li>HairStyle</li>
+		</exclusionTags>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneHeadBase">
+		<defName>DragonBall_ColdHead</defName>
+		<label>cold head</label>
+		<description>Carriers of this gene have a sleek alien appearance in their face and head.</description>
+		<iconPath>DragonBall/GeneIcons/Gene_ColdHead</iconPath>
+		<forcedHeadTypes>
+			<li>DragonBall_Male_Cold</li>
+			<li>DragonBall_Female_Cold</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneHeadboneBase">
+		<defName>DragonBall_Headbone_LesserDemon</defName>
+		<label>headbone (lesser demon)</label>
+		<description>Carriers of this gene grow an armoured shell on their head.</description>
+		<iconPath>DragonBall/Genes/HeadAddons/LesserDemon</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/HeadAddons/LesserDemon</graphicPath>
+			<layer>PostHair</layer>
+			<colorType>Hair</colorType>
+		</graphicData>
+		<exclusionTags>
+			<li>HairStyle</li>
+		</exclusionTags>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneHeadboneBase">
+		<defName>DragonBall_Headbone_GreaterDemon</defName>
+		<label>headbone (greater demon)</label>
+		<description>Carriers of this gene grow an armoured shell on their head.</description>
+		<iconPath>DragonBall/Genes/HeadAddons/GreaterDemon</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/HeadAddons/GreaterDemon</graphicPath>
+			<layer>PostHair</layer>
+			<colorType>Hair</colorType>
+		</graphicData>
+		<exclusionTags>
+			<li>HairStyle</li>
+		</exclusionTags>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Bald</li>
+			</tags>
+		</hairTagFilter>
+	</GeneDef>
+
+	<GeneDef>
+		<defName>DragonBall_FrostBody</defName>
+		<label>frost demon skin</label>
+		<labelShortAdj>demonskin</labelShortAdj>
+		<description>Carriers of this gene grow a light armoured layer of skin over their normal skin.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>7403</displayOrderInCategory>
+		<iconPath>DragonBall/GeneIcons/Gene_FrostBody</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<exclusionTags>
+			<li>Skin</li>
+			<li>Fur</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<statOffsets>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		</statOffsets>
+		<missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+		<graphicData>
+			<fur>DragonBall_FrostBody</fur>
+			<colorType>Skin</colorType>
+			<skinIsHairColor>false</skinIsHairColor>
+			<tattoosVisible>true</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<useMaskForFur>true</useMaskForFur>
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

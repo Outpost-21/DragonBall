@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="DragonBall_ArmourlessHeadgearFabricatedBase">
+		<defName>DragonBall_Scouter</defName>
+		<label>scouter</label>
+		<description>It's over nine THOUSAND!</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/Scouter/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		</recipeMaker>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<apparel>
+			<tags Inherit="False">
+				<li>Scouter</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/Scouter/Head</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups Inherit="False">
+				<li>UpperHead</li>
+			</bodyPartGroups>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>DragonBall_Apparel</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+</Defs>

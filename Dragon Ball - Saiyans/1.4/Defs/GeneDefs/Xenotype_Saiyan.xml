@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>DragonBall_Saiyan</defName>
+		<label>saiyan</label>
+		<description>Saiyans are naturally aggressive warriors, with an instinctual urge to strive to be the strongest they can become. They originate from the planet Sadala, later known as Vegeta after their most powerful warrior and ruler, King Vegeta. Saiyans are a largely heirarchical society, having their power level measured at birth to classify which of them become warriors, and which become engineers, scientists, or infiltrators. Saiyans are most well known for their ability to come back stronger than ever before after every defeat.</description>
+		<descriptionShort>Saiyans are naturally aggressive warriors, with an instinctual urge to strive to be the strongest they can become.</descriptionShort>
+		<iconPath>DragonBall/XenotypeIcons/Xenotype_Saiyan</iconPath>
+		<combatPowerFactor>2.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Hair_InkBlack</li>
+			<li>DragonBall_SaiyanHair</li>
+			<li>DragonBall_SaiyanTail</li>
+			<li>DragonBall_SuperSaiyan</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef ParentName="GeneHairStyleBase">
+		<defName>DragonBall_SaiyanHair</defName>
+		<label>saiyan-haired</label>
+		<labelShortAdj>saiyan</labelShortAdj>
+		<description>Carriers of this gene can only grow saiyan hair.</description>
+		<iconPath>DragonBall/GeneIcons/Gene_SaiyanHair</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<hairTagFilter>
+			<whitelist>true</whitelist>
+			<tags>
+				<li>Saiyan</li>
+			</tags>
+		</hairTagFilter>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneTailBase">
+		<defName>DragonBall_SaiyanTail</defName>
+		<label>saiyan tail</label>
+		<description>Carriers of this gene grow a monkey-like tail that can act as a dexterous fifth limb.</description>
+		<iconPath>DragonBall/Genes/Tails/Saiyan</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatMet>-1</biostatMet>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Tails/Saiyan</graphicPath>
+			<colorType>Custom</colorType>
+			<color>(94, 63, 45)</color>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneGenericBase">
+		<defName>DragonBall_SuperSaiyan</defName>
+		<label>super saiyan</label>
+		<iconPath>DragonBall/GeneIcons/Gene_SuperSaiyan</iconPath>
+		<description>Carriers of this gene are capable of greatly exceeding their normal power level through a minor and temporary transformation.</description>
+		<geneClass>TabulaRasa.Gene_HediffActivator</geneClass>
+		<displayCategory>Miscellaneous</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Ability to turn 'Super Saiyan'.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_GeneHediffActivator">
+				<labelKey>Saiyans.SuperSaiyanLabel</labelKey>
+				<descKey>Saiyans.SuperSaiyanDesc</descKey>
+				<iconTex>DragonBall/GeneIcons/Gene_SuperSaiyan</iconTex>
+				<hediff>DragonBall_SuperSaiyan</hediff>
+				<reqSkillLevels>
+					<li>
+						<skill>Melee</skill>
+						<level>10</level>
+					</li>
+				</reqSkillLevels>
+				<!-- <reqHediffs>
+					<li>DragonBall_KiFighter</li>
+				</reqHediffs> -->
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

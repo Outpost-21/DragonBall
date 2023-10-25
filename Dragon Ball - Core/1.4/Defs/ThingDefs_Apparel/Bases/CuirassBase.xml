@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="DragonBall_ApparelFabricatedBase" Name="DragonBall_ArmorFabricatedBase" Abstract="True">
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<thingCategories Inherit="False">
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel Inherit="False">
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="DragonBall_ArmorFabricatedBase" Name="DragonBall_LightArmorFabricatedBase" Abstract="True">
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList Inherit="False">
+			<Steel>60</Steel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<ArmorRating_Sharp>1.03</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.91</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="DragonBall_ArmorFabricatedBase" Name="DragonBall_MediumArmorFabricatedBase" Abstract="True">
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList Inherit="False">
+			<Steel>80</Steel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>9</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<ArmorRating_Sharp>1.18</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.62</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.98</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.2</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef ParentName="DragonBall_ArmorFabricatedBase" Name="DragonBall_HeavyArmorFabricatedBase" Abstract="True">
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList Inherit="False">
+			<Steel>100</Steel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<statBases>
+			<Mass>12</Mass>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>600</MaxHitPoints>
+			<ArmorRating_Sharp>1.28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.14</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>11</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.4</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>

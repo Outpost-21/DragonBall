@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="DragonBall_LightArmorFabricatedBase">
+		<defName>DragonBall_BasicBattleArmor</defName>
+		<label>basic battle armor</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/BasicBattleArmor/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(180, 180, 180)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>SaiyanApparel</li>
+				<li>SaiyanArmorLight</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/BasicBattleArmor/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180, 180, 180)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>DragonBall_Apparel</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="DragonBall_LightHelmetFabricatedBase">
+		<defName>DragonBall_BasicBattleHelmet</defName>
+		<label>basic battle helmet</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/BasicBattleArmor/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(180, 180, 180)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>SaiyanApparel</li>
+				<li>SaiyanArmorLight</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/BasicBattleArmor/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180, 180, 180)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>DragonBall_Apparel</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+</Defs>

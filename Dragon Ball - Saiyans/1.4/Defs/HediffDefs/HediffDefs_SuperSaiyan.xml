@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<HediffDef>
+		<defName>DragonBall_SuperSaiyan</defName>
+		<label>super saiyan</label>
+		<description>Super Saiyan is an advanced transformation utilized by members and hybrids of the Saiyan race. This temporary transformation significantly increases the combat potential of a fighter, especially in melee.</description>
+		<hediffClass>DBSaiyans.Hediff_SuperSaiyan</hediffClass>
+		<defaultLabelColor>(237, 194, 92)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-6.0</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>DragonBall_SuperSaiyan</stateEffecter>
+				<severityIndices>0~1</severityIndices>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.0</minSeverity>
+				<painFactor>0.5</painFactor>
+				<statOffsets>
+					<MeleeArmorPenetration>1</MeleeArmorPenetration>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<RestFallRateFactor>2</RestFallRateFactor>
+					<InjuryHealingFactor>1.5</InjuryHealingFactor>
+					<IncomingDamageFactor>0.3</IncomingDamageFactor>
+					<MeleeDamageFactor>3</MeleeDamageFactor>
+				</statFactors>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>3</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HeadTypeDef ParentName="AverageBase" Name="DragonBall_FrostHeadBase" Abstract="True">
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>DragonBall_FrostHead</li>
+		</requiredGenes>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DragonBall_FrostHeadBase">
+		<defName>DragonBall_Male_Frost</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Frost/Male_Frost</graphicPath>
+		<gender>Male</gender>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+	<HeadTypeDef ParentName="DragonBall_FrostHeadBase">
+		<defName>DragonBall_Female_Frost</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/Frost/Female_Frost</graphicPath>
+		<gender>Female</gender>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

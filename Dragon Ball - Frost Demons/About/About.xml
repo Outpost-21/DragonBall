@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Dragon Ball - Frost Demons</name>
+	<author>Neronix17</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Neronix17.DragonBall.FrostDemons</packageId>
+	<description>A RimWorld-ified Frost Demon faction styled after the Frieza Force, with a handful of Xenotypes for Biotech users.</description>
+</ModMetaData>

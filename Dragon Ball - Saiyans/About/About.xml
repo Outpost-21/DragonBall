@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Dragon Ball - Saiyans</name>
+	<author>Neronix17</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Neronix17.DragonBall.Saiyans</packageId>
+	<description>A RimWorld-ified Saiyan faction, with a Xenotype (if you have Biotech), and equipment fitting for them.</description>
+</ModMetaData>

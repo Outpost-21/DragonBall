@@ -1,0 +1,4 @@
+F:\RWModCategories\Neronix17\DragonBall\Dragon Ball - Saiyans\1.4\Assemblies\DBSaiyans.dll
+F:\RWModCategories\Neronix17\DragonBall\Dragon Ball - Saiyans\1.4\Source\DBSaiyans\obj\Debug\DBSaiyans.csproj.AssemblyReference.cache
+F:\RWModCategories\Neronix17\DragonBall\Dragon Ball - Saiyans\1.4\Source\DBSaiyans\obj\Debug\DBSaiyans.csproj.CoreCompileInputs.cache
+F:\RWModCategories\Neronix17\DragonBall\Dragon Ball - Saiyans\1.4\Source\DBSaiyans\obj\Debug\DBSaiyans.dll

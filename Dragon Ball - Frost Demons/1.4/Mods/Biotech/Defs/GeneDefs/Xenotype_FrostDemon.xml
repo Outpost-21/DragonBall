@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>DragonBall_FrostDemonLesser</defName>
+		<label>frost demon (lesser)</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>DragonBall/XenotypeIcons/Xenotype_FrostDemon</iconPath>
+		<combatPowerFactor>2.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_HairColor_Violet</li>
+			<li>Outland_Skin_Teal</li>
+			<li>DragonBall_ColdHead</li>
+			<li>DragonBall_Headbone_LesserDemon</li>
+			<li>DragonBall_FrostTail</li>
+			<li>DragonBall_FrostEars</li>
+			<li>DragonBall_FrostBody</li>
+			<li>DragonBall_FrostGem</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>DragonBall_FrostDemonGreater</defName>
+		<label>frost demon (greater)</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>DragonBall/XenotypeIcons/Xenotype_FrostDemon</iconPath>
+		<combatPowerFactor>2.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_HairColor_Violet</li>
+			<li>Outland_Skin_Teal</li>
+			<li>DragonBall_ColdHead</li>
+			<li>DragonBall_Headbone_GreaterDemon</li>
+			<li>DragonBall_FrostTail</li>
+			<li>DragonBall_FrostEars</li>
+			<li>DragonBall_FrostBody</li>
+			<li>DragonBall_FrostGem</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>DragonBall_FrostDemonTrue</defName>
+		<label>frost demon (true)</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>DragonBall/XenotypeIcons/Xenotype_FrostDemon</iconPath>
+		<combatPowerFactor>2.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Outland_HairColor_Violet</li>
+			<li>Outland_Skin_Teal</li>
+			<li>DragonBall_FrostHead</li>
+			<li>DragonBall_FrostTail</li>
+			<li>DragonBall_FrostEars</li>
+			<li>DragonBall_FrostBody</li>
+			<li>DragonBall_FrostGem</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

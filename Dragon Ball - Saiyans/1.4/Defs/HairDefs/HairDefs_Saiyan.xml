@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HairDef Name="DragonBallHair_SaiyanBase" Abstract="true">
+		<category>DragonBall_Saiyan</category>
+		<styleTags>
+			<li>Saiyan</li>
+		</styleTags>
+		<requiredGene>DragonBall_SaiyanHair</requiredGene>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Kakarot</defName>
+		<label>kakarot</label>
+		<styleGender>Male</styleGender>
+		<texPath>DragonBall/Hairs/Kakarot</texPath>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Vegeta</defName>
+		<label>vegeta</label>
+		<styleGender>Male</styleGender>
+		<texPath>DragonBall/Hairs/Vegeta</texPath>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Cabba</defName>
+		<label>cabba</label>
+		<styleGender>Male</styleGender>
+		<texPath>DragonBall/Hairs/Cabba</texPath>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Fasha</defName>
+		<label>fasha</label>
+		<styleGender>Female</styleGender>
+		<texPath>DragonBall/Hairs/Fasha</texPath>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Gine</defName>
+		<label>Gine</label>
+		<styleGender>Female</styleGender>
+		<texPath>DragonBall/Hairs/Gine</texPath>
+	</HairDef>
+
+	<HairDef ParentName="DragonBallHair_SaiyanBase">
+		<defName>DragonBall_Kale</defName>
+		<label>kale</label>
+		<styleGender>Female</styleGender>
+		<texPath>DragonBall/Hairs/Kale</texPath>
+	</HairDef>
+
+</Defs>

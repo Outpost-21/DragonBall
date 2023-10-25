@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="DragonBall_UniformBodyFabricatedBase">
+		<defName>DragonBall_Unitard</defName>
+		<label>unitard</label>
+		<description>Even space travelling mercs from another world need some spandex, for some reason. Don't look too close or you'll see what religion they are.</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/Unitard/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(90, 166, 125)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>SaiyanApparel</li>
+				<li>SaiyanBasic</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/Unitard/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(9, 96, 137)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>
