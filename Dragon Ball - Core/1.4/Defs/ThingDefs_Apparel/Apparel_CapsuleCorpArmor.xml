@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="DragonBall_LightArmorFabricatedBase">
+		<defName>DragonBall_CapsuleCorpArmor</defName>
+		<label>capsule corp armor</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/CapsuleCorpArmor/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(180, 180, 180)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>EarthApparel</li>
+				<li>EarthArmorLight</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/CapsuleCorpArmor/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180, 180, 180)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<thingSetMakerTags>
+			<li>DragonBall_Apparel</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+</Defs>

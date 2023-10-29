@@ -19,11 +19,11 @@
 				<offsets>
 					<south>
 						<bodyTypes>
-							<Male>(0, 0.01, 0)</Male>
-							<Female>(0, 0.01, 0.15)</Female>
-							<Thin>(0, 0.01, 0.05)</Thin>
-							<Hulk>(0, 0.01, 0)</Hulk>
-							<Fat>(0, 0.01, 0.12)</Fat>
+							<Male>(0, 0.001, 0)</Male>
+							<Female>(0, 0.001, 0.15)</Female>
+							<Thin>(0, 0.001, 0.05)</Thin>
+							<Hulk>(0, 0.001, 0)</Hulk>
+							<Fat>(0, 0.001, 0.12)</Fat>
 						</bodyTypes>
 					</south>
 				</offsets>
@@ -50,6 +50,25 @@
 			<graphicPath>DragonBall/Genes/Tails/Frost</graphicPath>
 			<colorType>Custom</colorType>
 			<color>(255, 255, 255)</color>
+		</graphicData>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneTailBase">
+		<defName>DragonBall_ColdTail_Skin</defName>
+		<label>cold tail</label>
+		<description>Carriers of this gene grow a thick fleshy tail that can act as a dexterous fifth limb.</description>
+		<iconPath>DragonBall/Genes/Tails/Cold</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>0.05</offset>
+			</li>
+		</capMods>
+		<biostatMet>-1</biostatMet>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Tails/Cold</graphicPath>
+			<colorType>Skin</colorType>
 		</graphicData>
 	</GeneDef>
 
