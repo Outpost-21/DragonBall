@@ -155,4 +155,33 @@
 		</modExtensions>
 	</GeneDef>
 
+	<!-- ========== Antennae ========== -->
+
+	<GeneDef Name="DragonBall_GeneAntennaBase" Abstract="True">
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Ears</endogeneCategory>
+		<displayCategory>Cosmetic</displayCategory>
+		<displayOrderInCategory>7900</displayOrderInCategory>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<randomChosen>true</randomChosen>
+		<graphicData>
+			<layer>PostHeadgear</layer>
+			<drawNorthAfterHair>false</drawNorthAfterHair>
+			<useSkinShader>false</useSkinShader>
+			<drawLoc>HeadTop</drawLoc>
+			<drawOffsetNorth>(0, -0.2, 0)</drawOffsetNorth>
+			<drawOffsetSouth>(0, 0.1, 0)</drawOffsetSouth>
+			<drawOffsetEast>(0, 0.2, 0)</drawOffsetEast>
+		</graphicData>
+		<exclusionTags>
+			<li>Antenna</li>
+		</exclusionTags>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
 </Defs>

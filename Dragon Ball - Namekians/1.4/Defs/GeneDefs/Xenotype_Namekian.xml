@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>DragonBall_Namekian</defName>
+		<label>saiyan</label>
+		<description>The Namekians, a unique and ancient alien race, hail from the distant planet Namek. These wise and green-skinned beings possess remarkable abilities, including advanced regenerative powers and strong proficiency in mystical arts. With antennae atop their heads, Namekians have a deep spiritual connection, enabling them to perform extraordinary feats such as telepathy and healing. They are known for their peaceful ways and often serve as the protectors of their home planet and its magical Dragon Balls, orbs of immense power that can grant wishes when collected.</description>
+		<descriptionShort>The Namekians, a unique and ancient alien race, hail from the distant planet Namek.</descriptionShort>
+		<iconPath>DragonBall/XenotypeIcons/Xenotype_Namekian</iconPath>
+		<combatPowerFactor>2.0</combatPowerFactor>
+		<inheritable>true</inheritable>
+		<genes>
+			<li>Skin_Green</li>
+			<li>Outland_Skin_GreenForest</li>
+			<li>Outland_Skin_GreenSwamp</li>
+			<li>Outland_Skin_GreenDeep</li>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Ears_Pointed</li>
+			<li>DragonBall_NamekianAntennae</li>
+			<li>DragonBall_NamekianSkin</li>
+			<li>DragonBall_NamekianRegeneration</li>
+		</genes>
+	</XenotypeDef>
+
+	<GeneDef>
+		<defName>DragonBall_NamekianSkin</defName>
+		<label>namekian skin</label>
+		<description>Carriers of this gene have large patches of pink skin on particularly muscle dense areas.</description>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>0</biostatMet>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>7405</displayOrderInCategory>
+		<iconPath>DragonBall/GeneIcons/Gene_NamekianSkin</iconPath>
+		<iconColor>(0.75, 0.75, 0.75)</iconColor>
+		<exclusionTags>
+			<li>Fur</li>
+		</exclusionTags>
+		<selectionWeight>0</selectionWeight>
+		<!-- <hairColorOverride>(220, 220, 220)</hairColorOverride> -->
+		<graphicData>
+			<fur>DragonBall_NamekianSkin</fur>
+			<colorType>Skin</colorType>
+			<skinIsHairColor>false</skinIsHairColor>
+			<tattoosVisible>true</tattoosVisible>
+		</graphicData>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_FurDef">
+				<useSkinColorForFur>true</useSkinColorForFur>
+				<useMaskForFur>true</useMaskForFur>
+			</li>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneAntennaBase">
+		<defName>DragonBall_NamekianAntennae</defName>
+		<label>antenna (namekian)</label>
+		<description>Carriers of this gene grow large antennae on their heads.</description>
+		<iconPath>DragonBall/Genes/Antenna/Gene_Namekian</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<graphicData>
+			<graphicPath>DragonBall/Genes/Antenna/Namekian</graphicPath>
+			<useSkinShader>false</useSkinShader>
+			<colorType>Skin</colorType>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

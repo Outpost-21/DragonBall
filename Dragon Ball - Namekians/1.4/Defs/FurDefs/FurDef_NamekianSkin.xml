@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<FurDef>
+		<defName>DragonBall_NamekianSkin</defName>
+		<noGraphic>true</noGraphic>
+		<bodyTypeGraphicPaths>
+			<Male>DragonBall/Genes/Skins/Namekian/Naked_Male</Male>
+			<Female>DragonBall/Genes/Skins/Namekian/Naked_Female</Female>
+			<Hulk>DragonBall/Genes/Skins/Namekian/Naked_Hulk</Hulk>
+			<Fat>DragonBall/Genes/Skins/Namekian/Naked_Fat</Fat>
+			<Thin>DragonBall/Genes/Skins/Namekian/Naked_Thin</Thin>
+			<Child>Things/Pawn/Humanlike/Bodies/Naked_Child</Child>
+			<Baby>Things/Pawn/Humanlike/Bodies/Naked_Child</Baby>
+		</bodyTypeGraphicPaths>
+	</FurDef>
+
+</Defs>
