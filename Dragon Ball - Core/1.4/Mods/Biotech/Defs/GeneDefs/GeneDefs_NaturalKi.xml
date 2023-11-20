@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef ParentName="DragonBall_GeneGenericBase">
+		<defName>DragonBall_NaturalKiUser</defName>
+		<label>natural ki user</label>
+		<description>Carriers of this gene have an inherent ability to use their ki, they also have an easier time honing their abilities.</description>
+		<iconPath>DragonBall/GeneIcons/Gene_SaiyanHair</iconPath>
+		<displayOrderInCategory>6900</displayOrderInCategory>
+		<displayCategory>Miscellaneous</displayCategory>
+		<biostatMet>-1</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>
