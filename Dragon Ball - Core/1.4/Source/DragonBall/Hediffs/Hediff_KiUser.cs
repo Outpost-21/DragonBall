@@ -115,7 +115,7 @@ namespace DragonBall
         {
             foreach(AbilityDef ab in DefDatabase<AbilityDef>.AllDefs)
             {
-                if (ab.HasModExtension<AbilityExtension_Ki>() && !comp.LearnedAbilities.Any(a => a.def == ab))
+                if (ab.HasModExtension<AbilityExtension_Ki>() && !comp.LearnedAbilities.Any(a => a.def == ab) && ab.requiredHediff.minimumLevel <= level)
                 {
                     yield return ab;
                 }

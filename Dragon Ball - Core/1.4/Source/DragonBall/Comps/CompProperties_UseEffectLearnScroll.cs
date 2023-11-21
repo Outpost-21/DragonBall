@@ -11,13 +11,11 @@ using AbilityDef = VFECore.Abilities.AbilityDef;
 
 namespace DragonBall
 {
-    public class CompProperties_UseEffectLearnAbility : CompProperties_UseEffectInstallImplant
-	{
-		public AbilityDef ability;
-
-		public CompProperties_UseEffectLearnAbility()
-		{
-			compClass = typeof(CompUseEffect_LearnAbility);
-		}
-	}
+    public class CompProperties_UseEffectLearnScroll : CompProperties_UseEffectGiveAbility
+    {
+        public CompProperties_UseEffectLearnScroll()
+        {
+            compClass = typeof(Comp_UseEffectLearnScroll);
+        }
+    }
 }

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<!-- ============================== Xenotype ============================== -->
+
 	<XenotypeDef>
 		<defName>DragonBall_Saiyan</defName>
 		<label>saiyan</label>
@@ -10,8 +12,6 @@
 		<combatPowerFactor>2.0</combatPowerFactor>
 		<inheritable>true</inheritable>
 		<genes>
-			<li>Body_Standard</li>
-			<li>Body_Hulk</li>
 			<li>Hair_InkBlack</li>
 			<li>DragonBall_SaiyanHair</li>
 			<li>DragonBall_SaiyanTail</li>
@@ -19,6 +19,30 @@
 			<li>DragonBall_NaturalKiUser</li>
 		</genes>
 	</XenotypeDef>
+
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="DragonBallBaseColonyPawnKind">
+		<defName>DragonBall_Saiyan</defName>
+		<label>saiyan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_Saiyan>999</DragonBall_Saiyan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
+		<defName>DragonBall_SaiyanTribal</defName>
+		<label>tribal saiyan</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_Saiyan>999</DragonBall_Saiyan>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ============================== Genes ============================== -->
 
 	<GeneDef ParentName="GeneHairStyleBase">
 		<defName>DragonBall_SaiyanHair</defName>

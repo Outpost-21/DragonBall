@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<!-- ============================== Xenotype ============================== -->
+
 	<XenotypeDef>
 		<defName>DragonBall_Namekian</defName>
 		<label>namekian</label>
@@ -22,6 +24,30 @@
 			<li>DragonBall_NamekianRegeneration</li>
 		</genes>
 	</XenotypeDef>
+
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="DragonBallBaseColonyPawnKind">
+		<defName>DragonBall_Namekian</defName>
+		<label>namekian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_Namekian>999</DragonBall_Namekian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
+		<defName>DragonBall_NamekianTribal</defName>
+		<label>tribal namekian</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_Namekian>999</DragonBall_Namekian>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ============================== Genes ============================== -->
 
 	<GeneDef>
 		<defName>DragonBall_NamekianSkin</defName>

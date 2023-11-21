@@ -92,8 +92,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abilities\AbilityExtension_Ki.cs" />
-    <Compile Include="Abilities\CompProperties_UseEffectLearnAbility.cs" />
-    <Compile Include="Abilities\CompUseEffect_LearnAbility.cs" />
+    <Compile Include="Comps\CompProperties_UseEffectLearnScroll.cs" />
+    <Compile Include="Comps\CompProperties_AbilityScroll.cs" />
+    <Compile Include="Comps\Comp_AbilityScroll.cs" />
+    <Compile Include="Comps\Comp_UseEffectLearnScroll.cs" />
     <Compile Include="DragonBallDefOf.cs" />
     <Compile Include="UI\Gizmo_KiEnergyStatus.cs" />
     <Compile Include="Hediffs\Hediff_KiUser.cs" />

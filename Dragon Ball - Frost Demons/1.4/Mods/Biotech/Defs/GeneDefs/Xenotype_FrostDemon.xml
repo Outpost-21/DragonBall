@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<!-- ============================== Xenotype ============================== -->
+
 	<XenotypeDef>
 		<defName>DragonBall_FrostDemonLesser</defName>
 		<label>frost demon (lesser)</label>
@@ -20,6 +22,30 @@
 			<li>DragonBall_FrostGem</li>
 		</genes>
 	</XenotypeDef>
+
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="DragonBallBaseColonyPawnKind">
+		<defName>DragonBall_FrostDemonLesser</defName>
+		<label>frost demon (lesser)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonLesser>999</DragonBall_FrostDemonLesser>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
+		<defName>DragonBall_FrostDemonLesserTribal</defName>
+		<label>tribal frost demon (lesser)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonLesser>999</DragonBall_FrostDemonLesser>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ============================== Xenotype ============================== -->
 
 	<XenotypeDef>
 		<defName>DragonBall_FrostDemonGreater</defName>
@@ -41,6 +67,30 @@
 		</genes>
 	</XenotypeDef>
 
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="DragonBallBaseColonyPawnKind">
+		<defName>DragonBall_FrostDemonGreater</defName>
+		<label>frost demon (greater)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonGreater>999</DragonBall_FrostDemonGreater>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
+		<defName>DragonBall_FrostDemonGreaterTribal</defName>
+		<label>tribal frost demon (greater)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonGreater>999</DragonBall_FrostDemonGreater>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<!-- ============================== Xenotype ============================== -->
+
 	<XenotypeDef>
 		<defName>DragonBall_FrostDemonTrue</defName>
 		<label>frost demon (true)</label>
@@ -59,5 +109,27 @@
 			<li>DragonBall_FrostGem</li>
 		</genes>
 	</XenotypeDef>
+
+	<!-- ============================== Pawn Kinds ============================== -->
+
+	<PawnKindDef ParentName="DragonBallBaseColonyPawnKind">
+		<defName>DragonBall_FrostDemonTrue</defName>
+		<label>frost demon (true)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonTrue>999</DragonBall_FrostDemonTrue>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
+		<defName>DragonBall_FrostDemonTrueTribal</defName>
+		<label>tribal frost demon (true)</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<DragonBall_FrostDemonTrue>999</DragonBall_FrostDemonTrue>
+			</xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
 
 </Defs>

@@ -35,12 +35,25 @@
 			<li>DragonBall_AbilityScrolls</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Usable">
-				<compClass>CompUsableImplant</compClass>
+			<li Class="DragonBall.CompProperties_AbilityScroll">
 				<useJob>UseItem</useJob>
-				<useLabel>Use neuroformer to form psylink</useLabel>
+				<useLabel>Use scroll to learn {0}</useLabel>
 			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
 			<li Class="CompProperties_Forbiddable" />
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Ki Blast ==================== -->
+
+	<ThingDef ParentName="DragonBallAbilityScrollBase">
+		<defName>DragonBall_Scroll_KiBlast</defName>
+		<label>technique scroll (ki blast)</label>
+		<description>Scroll depicting how to perform a ki blast, only a trained ki user has any use for this.</description>
+		<comps>
+			<li Class="DragonBall.CompProperties_UseEffectLearnScroll">
+				<ability>DragonBall_KiBlast</ability>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -51,10 +64,9 @@
 		<label>technique scroll (charged ki blast)</label>
 		<description>Scroll depicting how to perform a charged ki blast, only a trained ki user has any use for this.</description>
 		<comps>
-			<li Class="DragonBall.CompProperties_UseEffectLearnAbility">
+			<li Class="DragonBall.CompProperties_UseEffectLearnScroll">
 				<ability>DragonBall_ChargedKiBlast</ability>
 			</li>
-			<li Class="CompProperties_UseEffectDestroySelf" />
 		</comps>
 	</ThingDef>
 
@@ -67,10 +79,9 @@
 		<label>technique scroll (rapid ki blast)</label>
 		<description>Scroll depicting how to perform a rapid ki blast, only a trained ki user has any use for this.</description>
 		<comps>
-			<li Class="DragonBall.CompProperties_UseEffectLearnAbility">
+			<li Class="DragonBall.CompProperties_UseEffectLearnScroll">
 				<ability>DragonBall_RapidKiBlast</ability>
 			</li>
-			<li Class="CompProperties_UseEffectDestroySelf" />
 		</comps>
 	</ThingDef>
 

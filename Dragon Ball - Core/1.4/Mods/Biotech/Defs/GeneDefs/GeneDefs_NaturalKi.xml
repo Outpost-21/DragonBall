@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<GeneDef ParentName="DragonBall_GeneGenericBase">
+	<GeneDef>
 		<defName>DragonBall_NaturalKiUser</defName>
 		<label>natural ki user</label>
 		<description>Carriers of this gene have an inherent ability to use their ki, they also have an easier time honing their abilities.</description>
 		<iconPath>DragonBall/Items/PowerScroll</iconPath>
 		<displayOrderInCategory>6900</displayOrderInCategory>
 		<displayCategory>Miscellaneous</displayCategory>
+		<biostatCpx>2</biostatCpx>
 		<biostatMet>-1</biostatMet>
 		<modExtensions>
 			<li Class="VanillaGenesExpanded.GeneExtension">

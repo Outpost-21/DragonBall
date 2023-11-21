@@ -20,7 +20,7 @@
 		<alwaysHaulable>true</alwaysHaulable>
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<thingCategories>
-			<li>DragonBall_PowerScrolls</li>
+			<li>DragonBall_AbilityScrolls</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -31,10 +31,10 @@
 			<WorkToMake>36000</WorkToMake>
 		</statBases>
 		<tradeTags>
-			<li>DragonBall_PowerScrolls</li>
+			<li>DragonBall_AbilityScrolls</li>
 		</tradeTags>
 		<thingSetMakerTags>
-			<li>DragonBall_PowerScrolls</li>
+			<li>DragonBall_AbilityScrolls</li>
 		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Usable">
