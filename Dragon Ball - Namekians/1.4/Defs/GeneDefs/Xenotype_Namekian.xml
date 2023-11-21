@@ -3,7 +3,7 @@
 
 	<XenotypeDef>
 		<defName>DragonBall_Namekian</defName>
-		<label>saiyan</label>
+		<label>namekian</label>
 		<description>The Namekians, a unique and ancient alien race, hail from the distant planet Namek. These wise and green-skinned beings possess remarkable abilities, including advanced regenerative powers and strong proficiency in mystical arts. With antennae atop their heads, Namekians have a deep spiritual connection, enabling them to perform extraordinary feats such as telepathy and healing. They are known for their peaceful ways and often serve as the protectors of their home planet and its magical Dragon Balls, orbs of immense power that can grant wishes when collected.</description>
 		<descriptionShort>The Namekians, a unique and ancient alien race, hail from the distant planet Namek.</descriptionShort>
 		<iconPath>DragonBall/XenotypeIcons/Xenotype_Namekian</iconPath>

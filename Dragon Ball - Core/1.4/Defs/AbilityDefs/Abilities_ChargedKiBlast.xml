@@ -1,4 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+	<VFECore.Abilities.AbilityDef ParentName="DragonBallAbilityGoToTargetBase">
+		<defName>DragonBall_ChargedKiBlast</defName>
+		<label>charged ki blast</label>
+		<description>A simple technique allowing a users ki to be converted into a strong ranged energy blast.</description>
+		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
+		<iconPath>DragonBall/Abilities/KiBlastCharged</iconPath>
+		<castSound>DragonBall_KiBlast</castSound>
+		<castFleck>BlastDry</castFleck>
+		<targetFlecks>
+			<li>BlastDry</li>
+		</targetFlecks>
+		<targetMode>Pawn</targetMode>
+		<castTime>90</castTime>
+		<cooldownTime>180</cooldownTime>
+		<distanceToTarget>24</distanceToTarget>
+		<power>180</power>
+		<requiredHediff>
+			<hediffDef>DragonBall_KiUser</hediffDef>
+			<minimumLevel>2</minimumLevel>
+		</requiredHediff>
+		<modExtensions>
+			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
+				<projectile>DragonBall_KiBlast</projectile>
+			</li>
+			<li Class="DragonBall.AbilityExtension_Ki">
+				<energyUsed>15</energyUsed>
+				<experience>75</experience>
+			</li>
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>DragonBall_ChargedKiBlast</defName>
+		<label>charged ki blast</label>
+		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
+		<graphicData>
+			<texPath>DragonBall/Abilities/KiBlastCharged</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Blunt</damageDef>
+			<armorPenetrationBase>0.3</armorPenetrationBase>
+			<damageAmountBase>32</damageAmountBase>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
 	
 </Defs>

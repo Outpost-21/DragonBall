@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<DragonBall.KiUser>Ki User</DragonBall.KiUser>
+	<DragonBall.AbilityStatsKiEnergy>Ki Energy</DragonBall.AbilityStatsKiEnergy>
+	
+	<DragonBall.AbilityDisableReasonEnergyLack>Not enough Ki energy</DragonBall.AbilityDisableReasonEnergyLack>
+	<DragonBall.AbilityStatsKiEnergy>Ki</DragonBall.AbilityStatsKiEnergy>
+
+	<DragonBall.IncapableOfKiTechniques>Only ki users can learn this technique</DragonBall.IncapableOfKiTechniques>
+	<DragonBall.PowerLevelTooLow>Ki power level too low to learn</DragonBall.PowerLevelTooLow>
+	<DragonBall.AlreadyKnowKiTechnique>Already know this technique</DragonBall.AlreadyKnowKiTechnique>
+
+	<DragonBall.KiMaxBase_StatReport>Base Value</DragonBall.KiMaxBase_StatReport>
+	<DragonBall.KiMaxLevel_StatReport>Increase from level</DragonBall.KiMaxLevel_StatReport>
+
+	<DragonBall.KiRecoveryBase_StatReport>Base Value</DragonBall.KiRecoveryBase_StatReport>
+	<DragonBall.KiRecoveryLevel_StatReport>Increase from level</DragonBall.KiRecoveryLevel_StatReport>
+</LanguageData>
