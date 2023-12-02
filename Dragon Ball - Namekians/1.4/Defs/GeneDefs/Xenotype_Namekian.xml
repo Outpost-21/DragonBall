@@ -22,6 +22,7 @@
 			<li>DragonBall_NamekianAntennae</li>
 			<li>DragonBall_NamekianSkin</li>
 			<li>DragonBall_NamekianRegeneration</li>
+			<li>DragonBall_NaturalKiUser</li>
 		</genes>
 	</XenotypeDef>
 
@@ -100,5 +101,59 @@
 			</li>
 		</modExtensions>
 	</GeneDef>
+
+	<GeneDef ParentName="GeneHealingRateBase">
+		<defName>DragonBall_NamekianRegeneration</defName>
+		<label>namekian regeneration</label>
+		<description>Carriers of this gene heal from physical wounds and even lost body parts very quickly, but are more easily impacted by disease.</description>
+		<iconPath>DragonBall/GeneIcons/Gene_Regeneration</iconPath>
+		<displayOrderInCategory>7900</displayOrderInCategory>
+		<geneClass>TabulaRasa.Gene_Regeneration</geneClass>
+		<statFactors>
+			<InjuryHealingFactor>1.25</InjuryHealingFactor>
+		</statFactors>
+		<biostatMet>-2</biostatMet>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>DragonBall/GeneIcons/EndogeneBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>DragonBall/GeneIcons/XenogeneBG</backgroundPathXenogenes>
+			</li>
+			<li Class="TabulaRasa.DefModExt_GeneRegeneration">
+				<healTicks>300</healTicks>
+				<regrowParts>true</regrowParts>
+				<cureTicks>300</cureTicks>
+				<removeInfections>false</removeInfections>
+				<growthTicks>300</growthTicks>
+				<growthText>Growth: </growthText>
+				<protoBodyPart>DragonBall_NamekianProtoBodypart</protoBodyPart>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+	<HediffDef>
+		<defName>DragonBall_NamekianProtoBodypart</defName>
+		<label>regrowing</label>
+		<description>This body part is regrowing, strangely causing no pain.</description>
+		<hediffClass>TabulaRasa.Hediff_GrowingPart</hediffClass>
+		<defaultLabelColor>(0.59, 0.92, 0.69)</defaultLabelColor>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<partEfficiency>0.1</partEfficiency>
+		</addedPartProps>
+		<initialSeverity>0.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<!-- Decides how fast the body part heals/grows -->
+				<!-- 0.07 is roughly a Quadrum (15 days) -->
+				<severityPerDayNotImmune>1</severityPerDayNotImmune> 
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_AutoHealProps">
+				<growthText>Growth: </growthText>
+			</li>
+		</modExtensions>
+	</HediffDef>
 
 </Defs>

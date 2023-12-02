@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	<DragonBall.KiUser>Ki User</DragonBall.KiUser>
+	<DragonBall.KiUser>Ki User (Power Level: {0})</DragonBall.KiUser>
 	<DragonBall.AbilityStatsKiEnergy>Ki Energy</DragonBall.AbilityStatsKiEnergy>
 	
 	<DragonBall.AbilityDisableReasonEnergyLack>Not enough Ki energy</DragonBall.AbilityDisableReasonEnergyLack>

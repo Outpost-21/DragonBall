@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef ParentName="DragonBall_GeneSkinColorBase">
+		<defName>Outland_Skin_Teal</defName>
+		<label>teal skin</label>
+		<labelShortAdj>teal</labelShortAdj>
+		<description>Carriers of this produce a teal pigment in their skin.</description>
+		<skinColorOverride>(50, 118, 119)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>teal</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7925</displayOrderInCategory>
+	</GeneDef>
+
+</Defs>

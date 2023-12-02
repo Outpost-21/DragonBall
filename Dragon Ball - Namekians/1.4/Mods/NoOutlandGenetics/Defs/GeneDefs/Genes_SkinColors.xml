@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef ParentName="DragonBall_GeneSkinColorBase">
+		<defName>Outland_Skin_GreenDeep</defName>
+		<label>deep green skin</label>
+		<labelShortAdj>deep green</labelShortAdj>
+		<description>Carriers of this produce a deep green pigment in their skin.</description>
+		<skinColorOverride>(89, 105, 62)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>deep green</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7926</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneSkinColorBase">
+		<defName>Outland_Skin_GreenFaded</defName>
+		<label>faded green skin</label>
+		<labelShortAdj>faded green</labelShortAdj>
+		<description>Carriers of this produce a faded green pigment in their skin.</description>
+		<skinColorOverride>(86, 93, 76)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>faded green</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7928</displayOrderInCategory>
+	</GeneDef>
+
+	<GeneDef ParentName="DragonBall_GeneSkinColorBase">
+		<defName>Outland_Skin_GreenSwamp</defName>
+		<label>swamp green skin</label>
+		<labelShortAdj>swamp green</labelShortAdj>
+		<description>Carriers of this produce a swamp green pigment in their skin.</description>
+		<skinColorOverride>(112, 131, 78)</skinColorOverride>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>swamp green</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+		<displayOrderInCategory>7931</displayOrderInCategory>
+	</GeneDef>
+
+</Defs>

@@ -39,6 +39,8 @@ namespace DragonBall
 
         public float ExpForCurrentLevel => ExpForGivenLevel(levelInt);
 
+        public int PowerLevel => (level * 1000) + (Mathf.RoundToInt(Mathf.Lerp(0, 999, PercentToNextLevel)));
+
         public float ExpForGivenLevel(int lvl)
         {
             if (lvl < 1) { return 0f; }
@@ -60,7 +62,7 @@ namespace DragonBall
             experienceLastTick = experienceInt;
         }
 
-        public override string Label => "DragonBall.KiUser".Translate();
+        public override string Label => "DragonBall.KiUser".Translate(PowerLevel);
 
         public override void PostAdd(DamageInfo? dinfo)
         {
