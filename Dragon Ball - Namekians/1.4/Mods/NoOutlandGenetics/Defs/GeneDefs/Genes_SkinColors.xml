@@ -18,19 +18,19 @@
 	</GeneDef>
 
 	<GeneDef ParentName="DragonBall_GeneSkinColorBase">
-		<defName>Outland_Skin_GreenFaded</defName>
-		<label>faded green skin</label>
-		<labelShortAdj>faded green</labelShortAdj>
-		<description>Carriers of this produce a faded green pigment in their skin.</description>
-		<skinColorOverride>(86, 93, 76)</skinColorOverride>
+		<defName>Outland_Skin_GreenForest</defName>
+		<label>forest green skin</label>
+		<labelShortAdj>forest green</labelShortAdj>
+		<description>Carriers of this produce a forest green pigment in their skin.</description>
+		<skinColorOverride>(78, 131, 105)</skinColorOverride>
 		<symbolPack>
 			<prefixSymbols>
 				<li>
-					<symbol>faded green</symbol>
+					<symbol>forest green</symbol>
 				</li>
 			</prefixSymbols>
 		</symbolPack>
-		<displayOrderInCategory>7928</displayOrderInCategory>
+		<displayOrderInCategory>7929</displayOrderInCategory>
 	</GeneDef>
 
 	<GeneDef ParentName="DragonBall_GeneSkinColorBase">

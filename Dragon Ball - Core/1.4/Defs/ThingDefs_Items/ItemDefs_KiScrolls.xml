@@ -72,6 +72,17 @@
 
 	<!-- ==================== Exploding Ki Blast ==================== -->
 
+	<ThingDef ParentName="DragonBallAbilityScrollBase">
+		<defName>DragonBall_Scroll_ExplodingKiBlast</defName>
+		<label>technique scroll (exploding ki blast)</label>
+		<description>Scroll depicting how to perform an exploding ki blast, only a trained ki user has any use for this.</description>
+		<comps>
+			<li Class="DragonBall.CompProperties_UseEffectLearnScroll">
+				<ability>DragonBall_ExplodingKiBlast</ability>
+			</li>
+		</comps>
+	</ThingDef>
+
 	<!-- ==================== Rapid Ki Blasts ==================== -->
 
 	<ThingDef ParentName="DragonBallAbilityScrollBase">
@@ -86,5 +97,16 @@
 	</ThingDef>
 
 	<!-- ==================== Paralyzing Ki Blast ==================== -->
+
+	<ThingDef ParentName="DragonBallAbilityScrollBase">
+		<defName>DragonBall_Scroll_ParalyzingKiBlast</defName>
+		<label>technique scroll (paralyzing ki blast)</label>
+		<description>Scroll depicting how to perform an paralyzing ki blast, only a trained ki user has any use for this.</description>
+		<comps>
+			<li Class="DragonBall.CompProperties_UseEffectLearnScroll">
+				<ability>DragonBall_ParalyzingKiBlast</ability>
+			</li>
+		</comps>
+	</ThingDef>
 
 </Defs>

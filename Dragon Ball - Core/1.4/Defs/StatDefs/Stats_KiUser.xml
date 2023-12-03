@@ -32,7 +32,7 @@
 		<defaultBaseValue>1</defaultBaseValue>
 		<toStringStyle>FloatMaxTwo</toStringStyle>
 		<formatString>{0}/s</formatString>
-		<displayPriorityInCategory>6000</displayPriorityInCategory>
+		<displayPriorityInCategory>3501</displayPriorityInCategory>
 		<parts>
 			<li Class="DragonBall.StatPart_KiEnergyRecoveryRate" />
 		</parts>
@@ -45,7 +45,7 @@
 		<defaultBaseValue>1</defaultBaseValue>
 		<toStringStyle>PercentOne</toStringStyle>
 		<formatString>{0}</formatString>
-		<displayPriorityInCategory>4000</displayPriorityInCategory>
+		<displayPriorityInCategory>3502</displayPriorityInCategory>
 	</StatDef>
 
 </Defs>

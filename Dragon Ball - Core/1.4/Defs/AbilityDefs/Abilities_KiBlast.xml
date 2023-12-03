@@ -23,6 +23,9 @@
 		<modExtensions>
 			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
 				<projectile>DragonBall_KiBlast</projectile>
+				<accuracyStatFactors>
+					<ShootingAccuracyPawn>0.75</ShootingAccuracyPawn>
+				</accuracyStatFactors>
 			</li>
 			<li Class="DragonBall.AbilityExtension_Ki">
 				<energyUsed>9</energyUsed>
@@ -44,7 +47,8 @@
 			<damageDef>Blunt</damageDef>
 			<armorPenetrationBase>0.3</armorPenetrationBase>
 			<damageAmountBase>12</damageAmountBase>
-			<speed>80</speed>
+			<speed>40</speed>
+			<arcHeightFactor>10</arcHeightFactor>
 		</projectile>
 	</ThingDef>
 	

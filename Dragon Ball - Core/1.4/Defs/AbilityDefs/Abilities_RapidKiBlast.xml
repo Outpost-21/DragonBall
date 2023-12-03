@@ -3,8 +3,8 @@
 
 	<VFECore.Abilities.AbilityDef ParentName="DragonBallAbilityGoToTargetBase">
 		<defName>DragonBall_RapidKiBlast</defName>
-		<label>rapid ki blast</label>
-		<description>A simple technique allowing a users ki to be converted into small, rapid ranged energy blasts.</description>
+		<label>quick ki blast</label>
+		<description>A simple technique allowing a users ki to be converted into small, quick ranged energy blasts.</description>
 		<abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
 		<iconPath>DragonBall/Abilities/KiBlastSmall</iconPath>
 		<castSound>DragonBall_KiBlast</castSound>
@@ -24,10 +24,13 @@
 		<modExtensions>
 			<li Class="VFECore.Abilities.AbilityExtension_Projectile">
 				<projectile>DragonBall_KiBlast</projectile>
+				<accuracyStatFactors>
+					<ShootingAccuracyPawn>0.75</ShootingAccuracyPawn>
+				</accuracyStatFactors>
 			</li>
 			<li Class="DragonBall.AbilityExtension_Ki">
-				<energyUsed>3</energyUsed>
-				<experience>15</experience>
+				<energyUsed>1</energyUsed>
+				<experience>5</experience>
 			</li>
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
@@ -45,7 +48,8 @@
 			<damageDef>Blunt</damageDef>
 			<armorPenetrationBase>0.3</armorPenetrationBase>
 			<damageAmountBase>6</damageAmountBase>
-			<speed>80</speed>
+			<speed>60</speed>
+			<arcHeightFactor>10</arcHeightFactor>
 		</projectile>
 	</ThingDef>
 	
