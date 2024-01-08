@@ -36,6 +36,9 @@
 				<DragonBall_Namekian>999</DragonBall_Namekian>
 			</xenotypeChances>
 		</xenotypeSet>
+		<apparelTags Inherit="False">
+			<li>NamekianApparel</li>
+		</apparelTags>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="DragonBallBaseTribalPawnKind">
@@ -46,6 +49,9 @@
 				<DragonBall_Namekian>999</DragonBall_Namekian>
 			</xenotypeChances>
 		</xenotypeSet>
+		<apparelTags Inherit="False">
+			<li>NamekianApparel</li>
+		</apparelTags>
 	</PawnKindDef>
 
 	<!-- ============================== Genes ============================== -->

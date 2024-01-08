@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="DragonBall_UniformBodyFabricatedBase">
+		<defName>DragonBall_NamekianCoat</defName>
+		<label>namekian Coat</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>DragonBall/Apparel/NamekianCoat/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList Inherit="False" />
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<layers Inherit="False">
+				<li>Shell</li>
+			</layers>
+			<tags Inherit="False">
+				<li>NamekianApparel</li>
+				<li>NamekianBasic</li>
+			</tags>
+			<wornGraphicPath>DragonBall/Apparel/NamekianCoat/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li> <weight>10</weight> <only>(184, 79, 72)</only> </li>
+				<li> <weight>10</weight> <only>(117, 70, 67)</only> </li>
+				<li> <weight>10</weight> <only>(117, 92, 67)</only> </li>
+				<li> <weight>10</weight> <only>(171, 124, 77)</only> </li>
+				<li> <weight>10</weight> <only>(158, 157, 100)</only> </li>
+				<li> <weight>10</weight> <only>(136, 158, 100)</only> </li>
+				<li> <weight>10</weight> <only>(132, 145, 110)</only> </li>
+				<li> <weight>10</weight> <only>(87, 130, 109)</only> </li>
+				<li> <weight>10</weight> <only>(107, 143, 135)</only> </li>
+				<li> <weight>10</weight> <only>(59, 59, 59)</only> </li>
+				<li> <weight>10</weight> <only>(104, 101, 130)</only> </li>
+				<li> <weight>10</weight> <only>(134, 115, 148)</only> </li>
+				<li> <weight>10</weight> <only>(168, 141, 163)</only> </li>
+				<li> <weight>10</weight> <only>(130, 130, 130)</only> </li>
+				<li> <weight>10</weight> <only>(179, 179, 179)</only> </li>
+				<li> <weight>10</weight> <only>(92, 92, 92)</only> </li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>
